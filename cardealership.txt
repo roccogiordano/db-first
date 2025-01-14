@@ -1,0 +1,14 @@
+DATABASE
+
+
+
+id          MEDIUMINT           UNSIGNED            NOT_NULL            AUTOINCREMENT           PRIMARY_KEY
+brand       VARCHAR(20)                             NOT_NULL
+model       VARCHAR(100)                            NOT_NULL
+optionals   TEXT                                    NULL
+horsepower  SMALLINT            UNSIGNED            NOT_NULL
+torque      SMALLINT            UNSIGNED            NOT_NULL
+fuel        VARCHAR(2O)                             NOT_NULL
+plate       VARCHAR(10)                             NOT_NULL
+price       MEDIUMINT           UNSIGNED            NOT_NULL
+was_sold    BOOLEAN                                 NOT_NULL            DEFAULT(false)
